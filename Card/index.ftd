@@ -1,0 +1,49 @@
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #eee
+align-content: center
+border-color: #F86F03
+
+
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: #FFE4A7
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
+border-color: green
+
+
+
+
+-- ftd.image:
+src: https://cdn.discordapp.com/attachments/906173504225951776/1122081486456225853/wp7203031_1.jpg
+height: fill-container
+border-radius.px: 20
+
+-- ftd.column:
+
+-- ftd.text: Welcome to Lucknow
+role: $inherited.types.heading-medium
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+
+Muskariye Janab, Aap Lucknow me hain!! 💙
+
+
+-- end: ftd.column
+
+
+-- end: ftd.row
+
+
+-- ftd.row:
+
+
+
+-- end: ftd.column
